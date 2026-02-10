@@ -8,4 +8,4 @@
 8. coba kamu lihat berikut posisi file ku
 9. ternyata harus di buat di berbeda file ada lkesalahan tadi maka akan di pecah menjadi 5 file seperti berikut
 10. kenapa eror saat saya compile
-11. oke sudah bisa lanjut untuk compile masing masing soal bagaimana? saya mau mengecek
+11. oke sudah bisa lanjut untuk compile masing masing soal bagaimana? saya mau mengecek.
