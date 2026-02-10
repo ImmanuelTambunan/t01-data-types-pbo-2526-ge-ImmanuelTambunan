@@ -28,23 +28,22 @@ public class Main {
                 break;
 
             case "Soal2":
-    // 1. Baca input menggunakan double agar data awal tetap akurat
+    // 1. Baca input sebagai double
     double x = sc.nextDouble();
     double y = sc.nextDouble();
 
-    // 2. Jumlahkan menggunakan float
-    // PENTING: Cast masing-masing variabel ke float SEBELUM dijumlahkan
-    float resFloat = (float) x + (float) y;
+    // 2. Logika VITAL: Cast masing-masing variabel ke float SEBELUM dijumlahkan
+    // Ini akan memicu "loss of precision" pada masing-masing angka
+    float resFloat = (float) x + (float) y; 
 
-    // 3. Jumlahkan menggunakan double
+    // 3. Jumlahkan secara normal sebagai double (presisi tetap terjaga)
     double resDouble = x + y;
 
-    // 4. Hitung selisih absolut
-    // Cast resFloat kembali ke double agar operasi pengurangan konsisten
-    double selisihAbsolut = Math.abs((double) resFloat - resDouble);
+    // 4. Hitung selisih absolutnya
+    double selisih = Math.abs((double) resFloat - resDouble);
 
-    // 5. Tampilkan dengan 6 digit di belakang koma
-    System.out.printf("%.6f\n", selisihAbsolut);
+    // 5. Cetak dengan 6 digit di belakang koma
+    System.out.printf("%.6f\n", selisih);
     break;
 
             case "Soal3":
