@@ -28,14 +28,24 @@ public class Main {
                 break;
 
             case "Soal2":
-                // Soal 2: Float vs Double Precision
-                double x = sc.nextDouble();
-                double y = sc.nextDouble();
-                float resFloat = (float) x + (float) y;
-                double resDouble = x + y;
-                // Menghitung selisih absolut dengan 6 digit desimal
-                System.out.printf("%.6f\n", Math.abs(resFloat - resDouble));
-                break;
+    // 1. Baca input menggunakan double agar data awal tetap akurat
+    double x = sc.nextDouble();
+    double y = sc.nextDouble();
+
+    // 2. Jumlahkan menggunakan float
+    // PENTING: Cast masing-masing variabel ke float SEBELUM dijumlahkan
+    float resFloat = (float) x + (float) y;
+
+    // 3. Jumlahkan menggunakan double
+    double resDouble = x + y;
+
+    // 4. Hitung selisih absolut
+    // Cast resFloat kembali ke double agar operasi pengurangan konsisten
+    double selisihAbsolut = Math.abs((double) resFloat - resDouble);
+
+    // 5. Tampilkan dengan 6 digit di belakang koma
+    System.out.printf("%.6f\n", selisihAbsolut);
+    break;
 
             case "Soal3":
                 // Soal 3: Primitive vs Wrapper Comparison
