@@ -1,0 +1,11 @@
+1. jadi saya akan mengerjakan praktikum pbo dan saya mau kamu memahami dulu redmi dan soal yang akan saya berikan
+2. tolong berikan saya code dan penjelasan dari redmi dan soal tersebut
+3. apakah nanti keluaran nya dalam satu file atau pada file terpisah?
+4. oke selanjut nya bagaimana saya mengecek kebenaran dari masing masing code ? apa saya perlu run melalui terminal?
+5. oke sebelum kesana pada folder saya di sediakan sebaut file src java berikut. Apakaha saya harus mengerjaakan di sana? jelaskan
+6. bagaimana cara run nya? apakah sama seperti C menggunakan comamnt promt atau berbeda?
+7. terjadi error tolong jelaskan
+8. coba kamu lihat berikut posisi file ku
+9. ternyata harus di buat di berbeda file ada lkesalahan tadi maka akan di pecah menjadi 5 file seperti berikut
+10. kenapa eror saat saya compile
+11. oke sudah bisa lanjut untuk compile masing masing soal bagaimana? saya mau mengecek
